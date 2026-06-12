@@ -1,0 +1,29 @@
+{
+  "description": "Envelope of NORMAL (non-crash) riding from 9 laps. A crash detector threshold set above 'max_observed' produced zero false positives on this dataset; 'p99_9' is a more sensitive starting point.",
+  "sampling_rate_hz": 50.0,
+  "total_accel_magnitude_ms2": {
+    "p99": 36.00453367422421,
+    "p99_9": 70.61810975411738,
+    "max_observed": 111.74607939538387
+  },
+  "linear_accel_magnitude_ms2": {
+    "p99": 32.66428865443353,
+    "p99_9": 66.5269412236306,
+    "max_observed": 117.40207879486182
+  },
+  "jerk_ms3": {
+    "p99": 104.32255972000222,
+    "p99_9": 218.25695538389374,
+    "max_observed": 380.3383873403164
+  },
+  "gyro_magnitude_rads": {
+    "p99": 3.1801789809951977,
+    "p99_9": 6.740914197993886,
+    "max_observed": 21.372896113831555
+  },
+  "tilt_from_vertical_deg": {
+    "p99": 16.73618994768527,
+    "p99_9": 24.49668945088152,
+    "max_observed": 88.84971810979881
+  }
+}
