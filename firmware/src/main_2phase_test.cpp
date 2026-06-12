@@ -1,3 +1,8 @@
+// VeloGuard: 2-Phase Test Firmware
+// Simplified FSM for controlled drop/impact testing.
+// FREE_FALL phase bypassed; variance check removed.
+// Use for bench testing only. 
+
 #include <Wire.h>
 #include <WiFi.h>
 #include <EEPROM.h>
